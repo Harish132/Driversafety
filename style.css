@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
